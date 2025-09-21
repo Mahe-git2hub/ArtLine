@@ -1,29 +1,29 @@
 # ArtLine
-[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
 
+**You can sponsor me to support my open source work 💖 [sponsor](https://github.com/sponsors/vijishmadhavan?o=sd&sc=t)**
 
 The main aim of the project is to create amazing line art portraits. 
 
-**Sounds Intresting,let's get to the pictures!!**
-
-
-**Model-(Smooth)**
-
-[<img src="https://colab.research.google.com/assets/colab-badge.svg" align="center">](https://colab.research.google.com/github/vijishmadhavan/Light-Up/blob/master/ArtLine.ipynb)
-
-
-**Model-(Quality)**
-
-[<img src="https://colab.research.google.com/assets/colab-badge.svg" align="center">](https://colab.research.google.com/github/vijishmadhavan/Light-Up/blob/master/ArtLine(AR).ipynb)
-
-
-**Click on the below image to know more about colab demo, credits to Bhavesh Bhatt for the amazing Youtube video.**
-
-[![](https://i.imgur.com/ittgYum.png)](https://www.youtube.com/watch?v=ULqlp6Btk2w&t=324s)
-
 # Exciting update
 
-* Check Toon-Me https://github.com/vijishmadhavan/Toon-Me, Toon Portraits.
+#### ControlNet + ArtLine for portraits, Try colab!!
+
+[<img src="https://colab.research.google.com/assets/colab-badge.svg" align="center">](https://colab.research.google.com/github/vijishmadhavan/ArtLine/blob/main/ControlNet_%2BArtLine_.ipynb)
+
+
+## ControlNet + ArtLine
+
+The model is designed to take in a portrait image and a corresponding written instruction, and then use that instruction to adjust the style of the image.
+
+
+![model](https://i.imgur.com/QNCw4CN.jpg)
+
+![model](https://i.imgur.com/jJuF3UN.jpg)
+
+![model](https://i.imgur.com/zizgSTf.jpg)
+
+![Shahrukh](https://i.imgur.com/WvKsYXj.jpg)
+
 
 ## Highlights
 
@@ -46,29 +46,9 @@ Photo by Maxim from Pexels
 ![Imgur](https://i.imgur.com/yksAvUq.jpg)
 
 
-
-Friends, TV show.
-
-![Friends](https://i.imgur.com/x3vbPys.jpg)
-
-
 Keanu Reeves, Canadian actor.
 
 ![Keanu](https://i.imgur.com/labkc8V.jpg)
-
-
-
-Hrithik Roshan
-
-![Hrithik](https://i.imgur.com/U1sktwM.jpg)
-
-Alita: Battle Angel
-
-![Alita](https://i.imgur.com/3gcBKq2.jpg)
-
-Virat Kohli, Indian cricketer
-
-![Virat](https://i.imgur.com/jg76waU.jpg)
 
 Photo by Anastasiya Gepp from Pexels
 
@@ -86,21 +66,22 @@ Beyoncé, American singer
 
 ![Beyoncé](https://i.imgur.com/QalvHKS.jpg)
 
-Photo by Tim Savage from Pexels
 
-![Imgur](https://i.imgur.com/NTi2GRA.jpg)
+**Model-(Smooth)**
 
-## Cartoonize
+[<img src="https://colab.research.google.com/assets/colab-badge.svg" align="center">](https://colab.research.google.com/github/vijishmadhavan/Light-Up/blob/master/ArtLine.ipynb)
 
-**Lets cartoonize the lineart portraits, Check Toon-Me https://github.com/vijishmadhavan/Toon-Me.**
 
-Skrillex , American DJ
+**Model-(Quality)**
 
-![Imgur](https://i.imgur.com/BJW8beC.jpg)
+[<img src="https://colab.research.google.com/assets/colab-badge.svg" align="center">](https://colab.research.google.com/github/vijishmadhavan/Light-Up/blob/master/ArtLine(AR).ipynb)
 
-Tom Hanks, Actor
+[![Open in RunwayML Badge](https://open-app.runwayml.com/gh-badge.svg)](https://open-app.runwayml.com/?model=akhaliq/ArtLine)
 
-![Imgur](https://i.imgur.com/hvkDTZR.jpg)
+
+**Click on the below image to know more about colab demo, credits to Bhavesh Bhatt for the amazing Youtube video.**
+
+[![](https://i.imgur.com/ittgYum.png)](https://www.youtube.com/watch?v=ULqlp6Btk2w&t=324s)
 
 
 ## Line Art
@@ -141,7 +122,7 @@ APDrawing data set consits of mostly close-up portraits so the model would strug
 
 ## Going Forward
 
-I hope I was clear, going forward would like to improve the model further as it still struggles with random backgrounds(I'm creating a custom dataset to address this issue). Cartoonizing the image was never part of the project, but somehow it came up and it did okay!! Still lots to improve. Ill release the cartoonize model when it looks impressive enough to show off.
+I hope I was clear, going forward would like to improve the model further as it still struggles with random backgrounds(I'm creating a custom dataset to address this issue).
 
 *I will be constantly upgrading the project for the foreseeable future.*
 
@@ -181,8 +162,3 @@ Mail me @ vijishmadhavan@gmail.com
 ## License
 
 All code in this repository is under the MIT license as specified by the LICENSE file.
-
-
-
-
-
